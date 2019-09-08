@@ -1,0 +1,65 @@
+Volle Tags:
+<html> 		+ </html>		: Open en sluiten bestand (hiertussen moet alles)
+<body> 		+ </body>		: Open en sluiten text stuk (hiertussen moet alle text)
+<head> 		+ </head>		: Open en sluiten tablad naam (hiertussen komt de titel)
+<title>		+ </title>		: Naam van tablad naam (hiertussen komt de titel naam)
+<h1>		+ </h1>			: Grootste kop (hoe hoger het cijfer hoe kleiner de kop)
+<p>			+ </p>			: Paragraaf (hiertussen staat een stukje text)
+<em>		+ </em>			: Schuingedrukt (het gedeelte dat hier tussen staat is schuingedrukt)
+<strong>	+ </strong> 	: Dikgedrukt (het gedeelte dat hier tussen staat is dikgedrukt)
+<a>			+ </a>			: Linktag
+<iframe>	+ </iframe>		: Venster in venster
+<ol>		+ </ol>			: Genummerde lijst
+<ul>		+ </ul>			: Bolletjes lijst
+<il>		+ </il>			: Lijst items
+<button>	+ </button>		: Knopjes
+<textarea>	+ </textarea>	: Grote invulveld
+
+Lege Tags:
+<br>						: Lijnbreuk
+<img>						: Afbeeldingtag leeg
+<input>						: Invul veld
+<link>						: CSS bestand toevoegen
+
+Extra Info:
+<a href="">					: Extra woord voor linktag hierna volgt de site
+<a href="naam van bestand"> : Verwijzing naar home pagina
+<img src="">				: Extra woord voor afbeeldingtag hierna volgt locatie
+<img src="" width="">		: Breedte voor afbeelding
+<img src="" height="">		: Hoogte voor afbeelding
+<iframe src="">				: Extra woord voor venster hierna volgt locatie
+<iframe src="" width="">	: Breedte voor venster
+<iframe src="" height="">	: Hoogte voor venster
+
+Voorbeelden:
+Nested list; ordered in unordered:
+<ul>
+<li>naam
+<ol>
+<li>naam</li>
+</ol>
+</li>
+</ul>
+
+Nested list; unordered in ordered:
+<ol>
+<li>naam
+<ul>
+<li>naam</li>
+</ul>
+</li>
+</ol>
+
+Dubbele nestlist; dit kan vice versa:
+<ul>
+<li>naam
+<ol>
+<li>naam</li>
+</ol>
+</li>
+<li>naam
+<ol>
+<li>naam</li>
+</ol>
+</li>
+</ul>

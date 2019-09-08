@@ -1,0 +1,41 @@
+Het bewerken van een stuk text:
+
+1. Begin met de naam van het te bewerken gedeelte (dit is onderanderen; body, h1, p, a, maar ook class (.naam van class) en ID (#naam van id))
+2. Gebruik dan {}
+3. Vul dan hiertussen in wat er moet worden aangepast.
+	   Deze mogelijkheden zijn er:
+		   1. color: kleurnaam; kleur van de tekst
+		   2. background-color: kleurnaam; achtergrond kleur van tekst
+		   3. font-size: grootte in pixels; lettergroote van tekst
+		   4. font-family: lettertype; 
+		   5. font-style: italic;
+		   6. font-weight: bold;
+		   7. text-decoration: line-through;
+		   8. text-align: left, center, right; links centreren rechts
+		   9. height: aantal in px; hoogte van foto of achtergrond tekst gedeelte
+		   10. width: aantal in px; breedte van foto of achtergrond tekst gedeelte
+		   11. border: solid; kader om het betreffende gedeelte heen
+		   12. border: solid aantal px; dikte van kader aanpassen
+		   13. border: solid kleurnaam; kleur van kader aanpassen (standaard zwart);
+		   14. border-radius: aantal px; vanaf waar het de ronding begint te lopen
+		   15. padding: aantal px; de hoeveelheid ruimte tussen content en border
+		   16. padding-left: aantal px; ruimte voor links
+		   17. padding-right: aantal px; ruimte voor rechts
+		   18. padding-bottom: aantal px; ruimte voor onder
+		   19. padding-top: aantal px; ruimte voor boven
+		   20. margin: aantal px; de hoeveelheid ruimte tussen border en overig spul
+		   21. margin-left: aantal px; ruimte links
+		   22. margin-right: aantal px; ruimte rechts
+		   23. margin-bottom: aantal px; ruimte onder
+		   24. margin-top: aantal px; ruimte boven
+		   
+		   
+Class aanmaken:
+	bijvoorbeeld voor <a></a>
+		zet in "open" <a> het volgende
+			class="naam van class"
+			
+ID aanmaken:
+	bijvoorbeeld voor <a></a>
+		zet in "open" <a> het volgende
+			id="naam van id"
